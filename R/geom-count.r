@@ -1,7 +1,7 @@
 #' Count overlapping points
 #'
 #' This is a variant [geom_point()] that counts the number of
-#' observations at each location, then maps the count to point area. It
+#' observations at each location, then maps the count to point area. It is
 #' useful when you have discrete data and overplotting.
 #'
 #' @section Aesthetics:
@@ -21,7 +21,7 @@
 #'  geom_count()
 #'
 #' # Best used in conjunction with scale_size_area which ensures that
-#' # counts of zero would be given size 0. Doesn't make much different
+#' # counts of zero are given size 0. Doesn't make much difference
 #' # here because the smallest count is already close to 0.
 #' ggplot(mpg, aes(cty, hwy)) +
 #'  geom_count() +
