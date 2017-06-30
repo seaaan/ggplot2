@@ -3,17 +3,17 @@
 #'   If character, a rule to choose the bandwidth, as listed in
 #'   [stats::bw.nrd()].
 #' @param adjust A multiplicate bandwidth adjustment. This makes it possible
-#'    to adjust the bandwidth while still using the a bandwidth estimator.
-#'    For exampe, `adjust = 1/2` means use half of the default bandwidth.
+#'    to adjust the bandwidth while still using the bandwidth estimator.
+#'    For example, `adjust = 1/2` means use half of the default bandwidth.
 #' @param kernel Kernel. See list of available kernels in [density()].
-#' @param n number of equally spaced points at which the density is to be
+#' @param n Number of equally spaced points at which the density is to be
 #'   estimated, should be a power of two, see [density()] for
-#'   details
+#'   details.
 #' @param trim This parameter only matters if you are displaying multiple
 #'   densities in one plot. If `FALSE`, the default, each density is
 #'   computed on the full range of the data. If `TRUE`, each density
 #'   is computed over the range of that group: this typically means the
-#'   estimated x values will not line-up, and hence you won't be able to
+#'   estimated x values will not line up, and hence you won't be able to
 #'   stack density values.
 #' @section Computed variables:
 #' \describe{
