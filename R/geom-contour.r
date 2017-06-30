@@ -1,6 +1,6 @@
 #' 2d contours of a 3d surface
 #'
-#' ggplot2 can not draw true 3d surfaces, but you can use `geom_contour`
+#' ggplot2 cannot draw true 3d surfaces, but you can use `geom_contour`
 #' and [geom_tile()] to visualise 3d surfaces in 2d. To be a valid
 #' surface, the data must contain only a single row for each unique combination
 #' of the variables mapped to the `x` and `y` aesthetics. Contouring
