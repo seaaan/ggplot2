@@ -15,8 +15,8 @@
 #' @inheritParams geom_point
 #' @param arrow specification for arrow heads, as created by arrow().
 #' @param lineend Line end style (round, butt, square).
-#' @seealso [geom_path()] and [geom_line()] for multi-
-#'   segment lines and paths.
+#' @seealso [geom_path()] and [geom_line()] for multi-segment lines and
+#'   paths.
 #' @seealso [geom_spoke()] for a segment parameterised by a location
 #'   (x, y), and an angle and radius.
 #' @export
