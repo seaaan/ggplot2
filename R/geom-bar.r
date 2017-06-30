@@ -12,10 +12,10 @@
 #' bar must always be shown to produce a valid visual comparison. Naomi Robbins
 #' has a nice
 #' \href{http://www.b-eye-network.com/view/index.php?cid=2468}{article on this
-#' topic}. This is why it doesn't make sense to use a log-scaled y axis with a
+#' topic}. This is why it doesn't make sense to use a log-scaled y-axis with a
 #' bar chart.
 #'
-#' By default, multiple bar occupying the same `x` position will be
+#' By default, multiple bars occupying the same `x` position will be
 #' stacked atop one another by [position_stack()]. If you want them
 #' to be dodged side-to-side, use [position_dodge()]. Finally,
 #' [position_fill()] shows relative proportions at each `x` by
