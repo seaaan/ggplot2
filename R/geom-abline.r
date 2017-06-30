@@ -7,7 +7,7 @@ NULL
 #' horizontal, vertical, or diagonal (specified by slope and intercept).
 #' These are useful for annotating plots.
 #'
-#' These geoms act slightly different to other geoms. You can supply the
+#' These geoms act slightly differently from other geoms. You can supply the
 #' parameters in two ways: either as arguments to the layer function,
 #' or via aesthetics. If you use arguments, e.g.
 #' `geom_abline(intercept = 0, slope = 1)`, then behind the scenes
@@ -20,7 +20,7 @@ NULL
 #' commonly set in the plot. They also do not affect the x and y scales.
 #'
 #' @section Aesthetics:
-#' These geoms are drawn using with [geom_line()] so support the
+#' These geoms are drawn using with [geom_line()] so they support the
 #' same aesthetics: `alpha`, `colour`, `linetype` and
 #' `size`. They also each have aesthetics that control the position of
 #' the line:
@@ -35,7 +35,7 @@ NULL
 #' @inheritParams geom_point
 #' @param xintercept,yintercept,slope,intercept Parameters that control the
 #'   position of the line. If these are set, `data`, `mapping` and
-#'   `show.legend` are overridden
+#'   `show.legend` are overridden.
 #' @export
 #' @examples
 #' p <- ggplot(mtcars, aes(wt, mpg)) + geom_point()
